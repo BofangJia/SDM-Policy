@@ -6,7 +6,7 @@
 [Bofang Jia](https://bofangjia1227.github.io/page/)\*, [Can Cui](https://bofangjia1227.github.io/page/)\*, [Pengxiang Ding](https://bofangjia1227.github.io/page/)\*, [Mingyang Sun](https://bofangjia1227.github.io/page/), [Pengfang Qian](https://bofangjia1227.github.io/page/), [Siteng Huang](https://bofangjia1227.github.io/page/), [Zhaoxin Fan](https://bofangjia1227.github.io/page/), [Donglin Wang](https://bofangjia1227.github.io/page/)<sup>†</sup>
 
 
-![](./files/sdm.svg) \
+![](./files/sdm.svg) 
 
 <b>Overview of SDM Policy</b>: xxxxx.
 
