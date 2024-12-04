@@ -78,7 +78,7 @@ If you find our work useful, please consider citing:
 @article{jia2024sdm,
       title={Score and Distribution Matching Policy: Advanced accelerated Visuomotor Policies via matched distillation}, 
       author={Bofang Jia and Can Cui and Pengxiang Ding and  Mingyang Sun and Pengfang Qian and Siteng Huang and Zhaoxin Fan and Donglin Wang},
-      journal={arXiv preprint arXiv:},
+      journal={arXiv preprint arXiv},
       year={2024}
 }
 
