@@ -1,9 +1,9 @@
 # [Score and Distribution Matching Policy: Advanced accelerated Visuomotor Policies via matched distillation](https://bofangjia1227.github.io/page/)
 
 
-[Project Page](https://bofangjia1227.github.io/page/) | [arXiv](https://bofangjia1227.github.io/page/) | [Paper](https://bofangjia1227.github.io/page/)
+[Project Page](https://bofangjia1227.github.io/page/) | [arXiv](https://bofangjia1227.github.io/page/) | [Paper](https://bofangjia1227.github.io/page/) | [Data](https://bofangjia1227.github.io/page/)
 
-[Bofang Jia](https://bofangjia1227.github.io/page/)\*, [Can Cui](https://bofangjia1227.github.io/page/)\*, [Pengxiang Ding](https://bofangjia1227.github.io/page/)\*, [Mingyang Sun](https://bofangjia1227.github.io/page/), [Pengfang Qian](https://bofangjia1227.github.io/page/), [Siteng Huang](https://bofangjia1227.github.io/page/), [Zhaoxin Fan](https://bofangjia1227.github.io/page/), [Donglin Wang](https://bofangjia1227.github.io/page/)<sup>†</sup>
+[Bofang Jia](https://bofangjia1227.github.io/page/)\*, [Pengxiang Ding](https://bofangjia1227.github.io/page/)\*, [Can Cui](https://bofangjia1227.github.io/page/)\*, [Mingyang Sun](https://bofangjia1227.github.io/page/), [Pengfang Qian](https://bofangjia1227.github.io/page/), [Siteng Huang](https://bofangjia1227.github.io/page/), [Zhaoxin Fan](https://bofangjia1227.github.io/page/), [Donglin Wang](https://bofangjia1227.github.io/page/)<sup>†</sup>
 
 
 ![](./files/sdm.svg) 
@@ -16,24 +16,73 @@ See [INSTALL.md](INSTALL.md) for installation instructions.
 
 # 🛠️ Usage
 
+Scripts for generating demonstrations, training, and evaluation are all provided in the `scripts/` folder. 
+
+The results are logged by `wandb`, so you need to `wandb login` first to see the results and videos.
+
+For more detailed parameter Settings and descriptions, refer to scripts and codes. We have provided a simple illustration of using the code base here.
+
+
+1. Generate demonstrations by `gen_demonstration_adroit.sh` and `gen_demonstration_dexart.sh`. See the scripts for details. For example:
+    ```bash
+    bash scripts/gen_demonstration_adroit.sh hammer
+    ```
+    This will generate demonstrations for the `hammer` task in Adroit environment. The data will be saved in `SDM/data/` folder automatically.
+
+
+2. Train and evaluate a teacher policy with behavior cloning. For example:
+    ```bash
+    # bash scripts/train_policy.sh config_name task_name addition_info seed gpu_id 
+    bash scripts/train_policy.sh dp3 adroit_hammer 0901 0 0
+    ```
+    This will train a DP3 policy on the `hammer` task in Adroit environment using point cloud modality. By default we **save** the ckpt (optional in the script). 
+   
+3. Copy teacher's ckpt. For example:
+    ```bash
+    # bash scripts/cp_teacher.sh alg_name task_name teacher_addition_info addition_info seed gpu_id
+    bash scripts/cp_teacher.sh dp3_sdm adroit_hammer 0901 0901_sdm 0 0
+    ```
+    This will create a folder for student model training and copy the checkpoint for the specified teacher model here.
+    
+4. Train and evaluate SDM Policy. For example:
+    ```bash
+    # bash scripts/train_policy_sdm.sh config_name task_name addition_info seed gpu_id
+    bash scripts/train_policy_sdm.sh dp3_sdm adroit_hammer 0901_sdm 0 0
+    ```
+    This will train SDM Policy use a DP3 policy teacher model on the `hammer` task in Adroit environment using point cloud modality. 
+
+
 
 
 
 # 📚 Checkpoints
 
+The checkpoints for all 57 tasks in the paper can be found here
+[Adroit](https://drive.google.com/drive/folders/1Fq2PM9PqBWAEwPcOZdHZvrxaZtB6VC6W?usp=drive_link),
+[DexArt](https://drive.google.com/drive/folders/1GrpyF3MD__nd6h_0tQE6-K-guJZBAD2P?usp=drive_link),
+[MetaWorld](https://drive.google.com/drive/folders/1eVOfn__UEzFcPyO6pC_7y3BMYyctMSz9?usp=drive_link).
+
 
 # 🏷️ License
 This repository is released under the MIT license. See [LICENSE](LICENSE) for additional details.
 
-# 😺 Acknowledgement
-Our code is generally built upon: [Diffusion Policy](https://github.com/real-stanford/diffusion_policy), [DexMV](https://github.com/yzqin/dexmv-sim), [DexArt](https://github.com/Kami-code/dexart-release), [VRL3](https://github.com/microsoft/VRL3), [DAPG](https://github.com/aravindr93/hand_dapg), [DexDeform](https://github.com/sizhe-li/DexDeform), [RL3D](https://github.com/YanjieZe/rl3d), [GNFactor](https://github.com/YanjieZe/GNFactor), [H-InDex](https://github.com/YanjieZe/H-InDex), [MetaWorld](https://github.com/Farama-Foundation/Metaworld), [BEE](https://jity16.github.io/BEE/), [Bi-DexHands](https://github.com/PKU-MARL/DexterousHands), [HORA](https://github.com/HaozhiQi/hora). We thank all these authors for their nicely open sourced code and their great contributions to the community.
+# 🙏 Acknowledgement
+Our code is generally built upon: [3D Diffusion Policy](https://github.com/YanjieZe/3D-Diffusion-Policy), [ManiCM](https://github.com/ManiCM-fast/ManiCM), [DMD](https://github.com/tianweiy/DMD2), [Diffusion Policy](https://github.com/real-stanford/diffusion_policy), [DexArt](https://github.com/Kami-code/dexart-release), [VRL3](https://github.com/microsoft/VRL3), [MetaWorld](https://github.com/Farama-Foundation/Metaworld). We thank all these authors for their nicely open sourced code and their great contributions to the community.
 
 Contact [Bofang Jia](https://bofangjia1227.github.io/page/) if you have any questions or suggestions.
 
 # 📝 Citation
 
 If you find our work useful, please consider citing:
+```
+@article{jia2024sdm,
+      title={Score and Distribution Matching Policy: Advanced accelerated Visuomotor Policies via matched distillation}, 
+      author={Bofang Jia and Pengxiang Ding and Can Cui and Mingyang Sun and Pengfang Qian and Siteng Huang and Zhaoxin Fan and Donglin Wang},
+      journal={arXiv preprint arXiv:},
+      year={2024}
+}
 
+```
 
 
 
