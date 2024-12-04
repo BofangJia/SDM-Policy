@@ -3,7 +3,7 @@
 
 [Project Page](https://bofangjia1227.github.io/page/) | [arXiv](https://bofangjia1227.github.io/page/) | [Paper](https://bofangjia1227.github.io/page/) | [Data](https://bofangjia1227.github.io/page/)
 
-[Bofang Jia](https://bofangjia1227.github.io/page/)\*, [Pengxiang Ding](https://bofangjia1227.github.io/page/)\*, [Can Cui](https://bofangjia1227.github.io/page/)\*, [Mingyang Sun](https://bofangjia1227.github.io/page/), [Pengfang Qian](https://bofangjia1227.github.io/page/), [Siteng Huang](https://bofangjia1227.github.io/page/), [Zhaoxin Fan](https://bofangjia1227.github.io/page/), [Donglin Wang](https://bofangjia1227.github.io/page/)<sup>†</sup>
+[Bofang Jia](https://bofangjia1227.github.io/page/)\*, [Can Cui](https://bofangjia1227.github.io/page/)\*, [Pengxiang Ding](https://bofangjia1227.github.io/page/)\*, [Mingyang Sun](https://bofangjia1227.github.io/page/), [Pengfang Qian](https://bofangjia1227.github.io/page/), [Siteng Huang](https://bofangjia1227.github.io/page/), [Zhaoxin Fan](https://bofangjia1227.github.io/page/), [Donglin Wang](https://bofangjia1227.github.io/page/)<sup>†</sup>
 
 
 ![](./files/sdm.svg) 
@@ -77,7 +77,7 @@ If you find our work useful, please consider citing:
 ```
 @article{jia2024sdm,
       title={Score and Distribution Matching Policy: Advanced accelerated Visuomotor Policies via matched distillation}, 
-      author={Bofang Jia and Pengxiang Ding and Can Cui and Mingyang Sun and Pengfang Qian and Siteng Huang and Zhaoxin Fan and Donglin Wang},
+      author={Bofang Jia and Can Cui and Pengxiang Ding and  Mingyang Sun and Pengfang Qian and Siteng Huang and Zhaoxin Fan and Donglin Wang},
       journal={arXiv preprint arXiv:},
       year={2024}
 }
