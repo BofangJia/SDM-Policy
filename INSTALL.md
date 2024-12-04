@@ -1,10 +1,10 @@
 # Installing Conda Environment from Zero to Hero
 
-The following guidance works well for a machine with 3090/A40/A800/A100 GPU, cuda 11.7, driver 515.65.01.
+The following guidance works well for a machine with A100 GPU, cuda 11.7, driver 515.65.01.
 
 First, git clone this repo and `cd` into it.
 
-    git clone https://github.com/YanjieZe/3D-Diffusion-Policy.git
+    
 
 
 **Please strictly follow the guidance to avoid any potential errors. Especially, make sure Gym version is the same.**
@@ -91,10 +91,5 @@ download Adroit RL experts from [OneDrive](https://1drv.ms/u/s!Ag5QsBIFtRnTlFWqY
     pip install zarr==2.12.0 wandb ipdb gpustat dm_control omegaconf hydra-core==1.2.0 dill==0.3.5.1 einops==0.4.1 diffusers==0.11.1 numba==0.56.4 moviepy imageio av matplotlib termcolor
 
 
----
 
-8.install our visualizer for pointclouds (optional)
-
-    pip install kaleido plotly
-    cd visualizer && pip install -e . && cd ..
 
