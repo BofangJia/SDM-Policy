@@ -15,9 +15,9 @@ First, git clone this repo and `cd` into it.
 
 1.create python/pytorch env
 
-    conda remove -n dp3 --all
-    conda create -n dp3 python=3.8
-    conda activate dp3
+    conda remove -n sdm --all
+    conda create -n sdm python=3.8
+    conda activate sdm
 
 
 ---
