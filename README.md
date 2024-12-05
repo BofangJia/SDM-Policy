@@ -62,6 +62,7 @@ The checkpoints for all 57 tasks in the paper can be found here
 [DexArt](https://drive.google.com/drive/folders/1GrpyF3MD__nd6h_0tQE6-K-guJZBAD2P?usp=drive_link),
 [MetaWorld](https://drive.google.com/drive/folders/1eVOfn__UEzFcPyO6pC_7y3BMYyctMSz9?usp=drive_link).
 
+We are uploading gradually, sorry to say that due to the total checkpoints of about 600G, we are actively looking for a public storage platform for storage. Please contact us for priority updates if necessary.
 
 # 🏷️ License
 This repository is released under the MIT license. See [LICENSE](LICENSE) for additional details.
@@ -77,7 +78,7 @@ If you find our work useful, please consider citing:
 ```
 @article{jia2024sdm,
       title={Score and Distribution Matching Policy: Advanced accelerated Visuomotor Policies via matched distillation}, 
-      author={Bofang Jia and Can Cui and Pengxiang Ding and  Mingyang Sun and Pengfang Qian and Siteng Huang and Zhaoxin Fan and Donglin Wang},
+      author={Bofang Jia and Pengxiang Ding and Can Cui and  Mingyang Sun and Pengfang Qian and Siteng Huang and Zhaoxin Fan and Donglin Wang},
       journal={arXiv preprint arXiv},
       year={2024}
 }
