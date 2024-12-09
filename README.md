@@ -3,7 +3,7 @@
 
 [Project Page](https://bofangjia1227.github.io/page/) | [arXiv](https://bofangjia1227.github.io/page/) | [Paper](https://bofangjia1227.github.io/page/) | [Data](https://bofangjia1227.github.io/page/)
 
-[Bofang Jia](https://bofangjia1227.github.io/page/)\*, [Pengxiang Ding](https://bofangjia1227.github.io/page/)\*, [Can Cui](https://bofangjia1227.github.io/page/)\*,  [Mingyang Sun](https://bofangjia1227.github.io/page/), [Pengfang Qian](https://bofangjia1227.github.io/page/), [Siteng Huang](https://bofangjia1227.github.io/page/), [Zhaoxin Fan](https://bofangjia1227.github.io/page/), [Donglin Wang](https://bofangjia1227.github.io/page/)<sup>†</sup>
+[Bofang Jia](https://bofangjia1227.github.io/page/)\*, [Pengxiang Ding](https://dingpx.github.io/)\*, [Can Cui](http://cuixxx.github.io/)\*,  [Mingyang Sun](https://bofangjia1227.github.io/page/), [Pengfang Qian](https://bofangjia1227.github.io/page/), [Siteng Huang](https://kyonhuang.top/), [Zhaoxin Fan](https://zhaoxinf.github.io/), [Donglin Wang](https://milab.westlake.edu.cn/index.html)<sup>†</sup>
 
 
 ![](./files/sdm.svg) 
