@@ -1,4 +1,4 @@
-# [Score and Distribution Matching Policy: Advanced accelerated Visuomotor Policies via matched distillation](https://bofangjia1227.github.io/page/)
+# [Score and Distribution Matching Policy: Advanced Accelerated Visuomotor Policies via Matched Distillation](https://bofangjia1227.github.io/page/)
 
 
 [Project Page](https://bofangjia1227.github.io/page/) | [arXiv](https://bofangjia1227.github.io/page/) | [Paper](https://bofangjia1227.github.io/page/) | [Data](https://bofangjia1227.github.io/page/)
