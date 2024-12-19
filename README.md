@@ -77,15 +77,13 @@ Contact [Bofang Jia](https://bofangjia1227.github.io/page/) if you have any ques
 
 If you find our work useful, please consider citing:
 ```
-@misc{jia2024scoredistributionmatchingpolicy,
-      title={Score and Distribution Matching Policy: Advanced Accelerated Visuomotor Policies via Matched Distillation}, 
-      author={Bofang Jia and Pengxiang Ding and Can Cui and Mingyang Sun and Pengfang Qian and Siteng Huang and Zhaoxin Fan and Donglin Wang},
-      year={2024},
-      eprint={2412.09265},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2412.09265}, 
+@article{jia2024scoredistributionmatchingpolicy,
+  title={Score and Distribution Matching Policy: Advanced Accelerated Visuomotor Policies via Matched Distillation},
+  author={Jia, Bofang and Ding, Pengxiang and Cui, Can and Sun, Mingyang and Qian, Pengfang and Huang, Siteng and Fan, Zhaoxin and Wang, Donglin},
+  journal={arXiv preprint arXiv:2412.09265},
+  year={2024}
 }
+
 
 ```
 
