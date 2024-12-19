@@ -5,6 +5,7 @@
 
 [Bofang Jia](https://bofangjia1227.github.io/page/)\*, [Pengxiang Ding](https://dingpx.github.io/)\*, [Can Cui](http://cuixxx.github.io/)\*,  [Mingyang Sun](https://bofangjia1227.github.io/page/), [Pengfang Qian](https://bofangjia1227.github.io/page/), [Siteng Huang](https://kyonhuang.top/), [Zhaoxin Fan](https://zhaoxinf.github.io/), [Donglin Wang](https://milab.westlake.edu.cn/index.html)<sup>†</sup>
 
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FBofangJia1227%2FSDM-Policy&count_bg=%23C5A0D4&title_bg=%23FBEFF0&icon=codeigniter.svg&icon_color=%23FBEFF0&title=SDM+Policy&edge_flat=true"/></a>
 
 ![](./files/sdm.svg) 
 
