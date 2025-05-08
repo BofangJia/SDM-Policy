@@ -50,7 +50,11 @@ For more detailed parameter Settings and descriptions, refer to scripts and code
     # bash scripts/train_policy_sdm.sh config_name task_name addition_info seed gpu_id
     bash scripts/train_policy_sdm.sh dp3_sdm adroit_hammer 0901_sdm 0 0
     ```
-    This will train SDM Policy use a DP3 policy teacher model on the `hammer` task in Adroit environment using point cloud modality. 
+    This will train SDM Policy use a DP3 policy teacher model on the `hammer` task in Adroit environment using point cloud modality.
+5. For headless servers, you can use this script for training and evaluation. For example:
+    ```bash
+    bash server_code.sh
+    ```
 
 
 
