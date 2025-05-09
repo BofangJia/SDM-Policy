@@ -1,9 +1,9 @@
 # [Score and Distribution Matching Policy: Advanced Accelerated Visuomotor Policies via Matched Distillation](https://bofangjia1227.github.io/page/)
 
 
-[Project Page](https://bofangjia1227.github.io/page/) | [arXiv](https://bofangjia1227.github.io/page/) | [Paper](https://bofangjia1227.github.io/page/) | [Data](https://bofangjia1227.github.io/page/)
+[Project Page](https://sdm-policy.github.io/) | [arXiv](https://arxiv.org/abs/2412.09265) | [Paper](https://arxiv.org/pdf/2412.09265) | [Data](https://github.com/BofangJia/SDM-Policy)
 
-[Bofang Jia](https://bofangjia1227.github.io/page/)\*, [Pengxiang Ding](https://dingpx.github.io/)\*, [Can Cui](http://cuixxx.github.io/)\*,  [Mingyang Sun](https://bofangjia1227.github.io/page/), [Pengfang Qian](https://bofangjia1227.github.io/page/), [Siteng Huang](https://kyonhuang.top/), [Zhaoxin Fan](https://zhaoxinf.github.io/), [Donglin Wang](https://milab.westlake.edu.cn/index.html)<sup>†</sup>
+[Bofang Jia](https://bofangjia.github.io/)\*, [Pengxiang Ding](https://dingpx.github.io/)\*, [Can Cui](http://cuixxx.github.io/)\*,  [Mingyang Sun](https://bofangjia.github.io/), [Pengfang Qian](https://bofangjia.github.io/), [Siteng Huang](https://kyonhuang.top/), [Zhaoxin Fan](https://zhaoxinf.github.io/), [Donglin Wang](https://milab.westlake.edu.cn/index.html)<sup>†</sup>
 
 
 
@@ -75,7 +75,7 @@ This repository is released under the MIT license. See [LICENSE](LICENSE) for ad
 # 🙏 Acknowledgement
 Our code is generally built upon: [3D Diffusion Policy](https://github.com/YanjieZe/3D-Diffusion-Policy), [ManiCM](https://github.com/ManiCM-fast/ManiCM), [DMD](https://github.com/tianweiy/DMD2), [Diffusion Policy](https://github.com/real-stanford/diffusion_policy), [DexArt](https://github.com/Kami-code/dexart-release), [VRL3](https://github.com/microsoft/VRL3), [MetaWorld](https://github.com/Farama-Foundation/Metaworld). We thank all these authors for their nicely open sourced code and their great contributions to the community.
 
-Contact [Bofang Jia](https://bofangjia1227.github.io/page/) if you have any questions or suggestions.
+Contact [Bofang Jia](https://bofangjia.github.io/) if you have any questions or suggestions.
 
 # 📝 Citation
 
